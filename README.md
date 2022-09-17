@@ -1,6 +1,6 @@
 # AllSquaredPairs
 
-Program which finds all <img src="./img/a.png" height="12px" alt="a" /> and <img src="./img/b.png" height="16px" alt="b" />, such that <img src="./img/01.png" height="24px" alt="a^2 + b^2 = num" /> for given number <img src="./img/num.png" height="14px" alt="num" /> and <img src="./img/02.png" height="26px" alt="0 <= a <= b <= floor(sqrt(num))" /> to prevent redundant iterations.
+Program which finds all <img src="./img/a.png" height="12px" alt="a" /> and <img src="./img/b.png" height="16px" alt="b" />, such that <img src="./img/01.png" height="24px" alt="a^2 + b^2 = num" /> for given number <img src="./img/num.png" height="14px" alt="num" /> and <img src="./img/02.png" height="26px" alt="0 <= a < b <= floor(sqrt(num))" /> to prevent redundant iterations.
 
 Algorithm has time complexity <img src="./img/bigo.png" height="28px" alt="O(n^2)" /> since unequality statement above implies.
 
